@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname,'uploads')))
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://manivedi722:QSdRAneQUUmSV86c@cluster0.vnuhdxp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/imageDB", {
+mongoose.connect(Your api, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
